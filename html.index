@@ -14,17 +14,33 @@ Affiliate Program Of Amazon
         
         <!-- Product List -->
         <div class="row mt-4">
-            {% for product in products %}
             <div class="col-md-4">
                 <div class="card mb-3">
                     <div class="card-body">
-                        <h5 class="card-title">{{ product.name }}</h5>
-                        <p class="card-text">Price: ₹{{ product.price }}</p>
-                        <a href="{{ product.affiliate_link }}" target="_blank" class="btn btn-primary">Buy on Amazon</a>
+                        <h5 class="card-title">Apple iPhone 15</h5>
+                        <p class="card-text">Price: ₹79,900</p>
+                        <a href="https://www.amazon.in/dp/B0CHX1V3SY?tag=your-affiliate-id" target="_blank" class="btn btn-primary">Buy on Amazon</a>
                     </div>
                 </div>
             </div>
-            {% endfor %}
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy S23</h5>
+                        <p class="card-text">Price: ₹74,999</p>
+                        <a href="https://www.amazon.in/dp/B0BTYVC1VQ?tag=your-affiliate-id" target="_blank" class="btn btn-primary">Buy on Amazon</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Sony WH-1000XM5 Headphones</h5>
+                        <p class="card-text">Price: ₹29,990</p>
+                        <a href="https://www.amazon.in/dp/B09YHSLL8D?tag=your-affiliate-id" target="_blank" class="btn btn-primary">Buy on Amazon</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
